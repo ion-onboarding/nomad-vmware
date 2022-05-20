@@ -1,8 +1,8 @@
 # vpshere one virtual machine
-- doesn't contain operating system
+No operating system added in the vm.
 
 ## Create infrastructure
-- adjust settings in file __main.tf__ for provider `vpshere`
+- adjust settings in file __main.tf__ for __vpshere__ provider
 - initialize working directory
 ```
 terraform init

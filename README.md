@@ -16,7 +16,7 @@ cd vmware
 
 - change directory into specific directory, for example
 ```
-cd one-vm
+cd vm-basic
 ```
 
 - follow instructions from README.md in that specific example
