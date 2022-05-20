@@ -13,10 +13,6 @@ cd vmware
 ```
 
 - change directory into specific example directory
-```
-cd vm-basic
-```
-
 - follow instructions from README.md in that specific example
 
 
