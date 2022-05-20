@@ -1,5 +1,5 @@
 provider "vsphere" {
-  vsphere_server       = "10.1.0.5"
+  vsphere_server       = "2.3.4.5"
   user                 = "administrator@vsphere.local"
   password             = "<PASSWORD>"
   allow_unverified_ssl = true
