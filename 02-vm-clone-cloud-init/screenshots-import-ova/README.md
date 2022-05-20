@@ -1,6 +1,6 @@
 # Manual steps to import ubuntu cloud-image
 
-[Ubuntu cloud images here](https://cloud-images.ubuntu.com/)
+[Link ubuntu cloud-images](https://cloud-images.ubuntu.com/)
 
 - import OVA
     - select cluster
