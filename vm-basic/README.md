@@ -1,4 +1,4 @@
-# vpshere one virtual machine
+# vpshere one vm
 No operating system added in the vm.
 
 ## Create infrastructure
