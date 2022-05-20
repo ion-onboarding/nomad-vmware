@@ -1,4 +1,4 @@
-# Manual steps to import ubuntu cloud image the OVA
+# Manual steps to import ubuntu cloud-image
 
 [Ubuntu cloud images here](https://cloud-images.ubuntu.com/)
 
