@@ -1,9 +1,9 @@
-# vpshere vm clone & cloud-init
+# vm clone & cloud-init
 
 ## Before creating infrastructure
 - adjust settings in file __main.tf__ for __vpshere__ provider
 - import manually the ova from [cloud-images.ubuntu.com](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova)
-- leave all options to their default (apart from datacenter, network, storage)
+    - check `screenshots-import-ova`
 - do NOT power on the after import
 
 ## Create infrastructure

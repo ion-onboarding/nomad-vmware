@@ -30,7 +30,7 @@ data "vsphere_network" "network" {
 }
 
 # import ova first to use this block, see https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova
-# do NOT power on after import, name of vm in my case is "focal-server-cloudimg-amd64" 
+# do NOT power on after import 
 data "vsphere_virtual_machine" "template" {
   name          = "focal-server-cloudimg-amd64"
   datacenter_id = data.vsphere_datacenter.datacenter.id

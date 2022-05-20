@@ -1,6 +1,6 @@
 # Manual steps to import ubuntu cloud image the OVA
 
-[Ubuntu cloud images](https://cloud-images.ubuntu.com/)
+[Ubuntu cloud images here](https://cloud-images.ubuntu.com/)
 
 - import OVA
     - select cluster
@@ -8,8 +8,8 @@
 
 ![](screenshots/2022-05-21-00-54-44.png)
 
-- add OVA location
-    - paste the URL of the .ova and click next
+- add OVA template
+    - paste the [URL](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova) of the .ova and click next
 
 ![](screenshots/2022-05-21-00-56-15.png)
 
