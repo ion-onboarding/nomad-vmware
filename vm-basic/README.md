@@ -1,5 +1,5 @@
 # vpshere one vm
-No operating system added in the vm.
+No operating system added in the vm for simplicity.
 
 ## Create infrastructure
 - adjust settings in file __main.tf__ for __vpshere__ provider

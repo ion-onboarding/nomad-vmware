@@ -1,7 +1,5 @@
 # vmware
-examples on how to create resources with terraform and vpshere provider
-
-[VMware vShere provider](https://registry.terraform.io/providers/hashicorp/vsphere/latest)
+examples on how to create resources with terraform and [VMware vShere provider](https://registry.terraform.io/providers/hashicorp/vsphere/latest).
 
 # How to use this repo
 - clone the repo
@@ -14,7 +12,7 @@ git clone git@github.com:ion-onboarding/vmware.git
 cd vmware
 ```
 
-- change directory into specific directory, for example
+- change directory into specific example directory
 ```
 cd vm-basic
 ```
