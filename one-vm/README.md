@@ -1,4 +1,5 @@
-# vpshere one vm, no OS
+# vpshere one virtual machine
+- doesn't contain operating system
 
 ## Create infrastructure
 - adjust settings in file __main.tf__ for provider `vpshere`
