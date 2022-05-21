@@ -82,6 +82,7 @@ resource "vsphere_virtual_machine" "vm" {
   }
 }
 
+# password set for ubuntu user through cloud-init/userdata.yml is: ubuntu
 locals {
   SSH_vm = "ssh -o StrictHostKeyChecking=no ubuntu@${vsphere_virtual_machine.vm.default_ip_address}"
 }
