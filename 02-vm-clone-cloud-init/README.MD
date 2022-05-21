@@ -6,6 +6,11 @@
 - do NOT power on the after import
 
 ## Create infrastructure
+- change directory
+```
+cd 02-vm-clone-cloud-init
+```
+
 - initialize working directory
 ```
 terraform init

@@ -3,6 +3,11 @@ No operating system added in the vm for simplicity.
 
 ## Create infrastructure
 - adjust settings in file __main.tf__ for __vpshere__ provider
+- change directory
+```
+cd 01-vm-basic
+```
+
 - initialize working directory
 ```
 terraform init

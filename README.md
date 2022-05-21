@@ -14,5 +14,3 @@ cd vmware
 
 - change directory into specific example directory
 - follow instructions from README.md in that specific example
-
-
