@@ -1,6 +1,6 @@
 # vm clone & cloud-init
 - __vm is cloned from template__
-- ubuntu cloud image is imported manually
+- __ubuntu cloud-image .ova is imported manually__
 
 ## Before creating infrastructure
 - from main repo change directory into this example
