@@ -9,4 +9,4 @@ users:
     groups: sudo, wheel
     sudo: ALL=(ALL) NOPASSWD:ALL
     shell: /bin/bash
-    ssh_import_id: None
+ssh_pwauth: True # This line enables ssh password authentication
