@@ -1,4 +1,5 @@
 # vm & ssh details
+- __vm is cloned from template__
 - creates a vm with vpshere
 - creates a tag and attaches it to resources
 - checks for public key and uploads it to the machine
