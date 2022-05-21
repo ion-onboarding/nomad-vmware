@@ -1,4 +1,6 @@
 # vm clone & cloud-init
+- __vm is cloned from template__
+- ubuntu cloud image is imported manually
 
 ## Before creating infrastructure
 - from main repo change directory into this example
