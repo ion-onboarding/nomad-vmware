@@ -44,7 +44,9 @@ resource "vsphere_folder" "vm" {
 }
 
 resource "vsphere_virtual_machine" "vm" {
-  name             = random_pet.name.id
+  count = 1
+
+  name             = "vm-${random_pet.name.id}-${count.index}"
   resource_pool_id = data.vsphere_compute_cluster.cluster.resource_pool_id
   datastore_id     = data.vsphere_datastore.datastore.id
   folder           = vsphere_folder.vm.path # optional
@@ -84,7 +86,8 @@ resource "vsphere_virtual_machine" "vm" {
 
 # password set for ubuntu user through cloud-init/userdata.yml is: ubuntu
 locals {
-  SSH_vm = "ssh -o StrictHostKeyChecking=no ubuntu@${vsphere_virtual_machine.vm.default_ip_address}"
+  SSH_vm = [for instance in vsphere_virtual_machine.vm : " ssh -o StrictHostKeyChecking=no ubuntu@${instance.default_ip_address} "]
+
 }
 output "SSH_vm" {
   value = local.SSH_vm
