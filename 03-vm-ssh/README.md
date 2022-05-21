@@ -1,11 +1,10 @@
 # vm & ssh details
 - __vm is cloned from template__
 - __ubuntu cloud-image .ova is imported manually__
-- creates a vm with vpshere
-- creates a tag and attaches it to resources
-- checks for public key and uploads it to the machine
-- outputs connection details
-- uses count if more machines are needed
+- create a tag and attach to resources
+- check locally for public key and upload to vm
+- output connection details
+- use count => more vms
 
 
 ## Before creating infrastructure
