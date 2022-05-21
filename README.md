@@ -1,5 +1,7 @@
 # vmware vpshere
-examples on how to create resources with terraform and [VMware vShere provider](https://registry.terraform.io/providers/hashicorp/vsphere/latest).
+- examples on how to create resources with terraform and [VMware vShere provider](https://registry.terraform.io/providers/hashicorp/vsphere/latest).
+
+![](pic-vmware-terraform.png)
 
 # How to use this repo
 - clone the repo
@@ -14,5 +16,3 @@ cd vmware
 
 - change directory into specific example directory
 - follow instructions from README.md in that specific example
-
-
