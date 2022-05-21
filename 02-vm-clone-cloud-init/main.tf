@@ -6,7 +6,6 @@ provider "vsphere" {
 }
 
 resource "random_pet" "name" {
-  prefix = "vm"
   length = 2
 }
 
