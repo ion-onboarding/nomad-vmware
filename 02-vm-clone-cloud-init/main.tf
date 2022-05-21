@@ -1,7 +1,7 @@
 provider "vsphere" {
-  vsphere_server       = "2.3.4.5"
+  vsphere_server       = "10.1.0.5"
   user                 = "administrator@vsphere.local"
-  password             = "<PASSWORD>"
+  password             = "Krakow123@!@#"
   allow_unverified_ssl = true
 }
 
@@ -80,4 +80,11 @@ resource "vsphere_virtual_machine" "vm" {
       user-data = base64gzip(templatefile("${path.module}/cloud-init/userdata.yml", {}))
     }
   }
+}
+
+locals {
+  SSH_vm = "ssh -o StrictHostKeyChecking=no ubuntu@${vsphere_virtual_machine.vm.default_ip_address}"
+}
+output "SSH_vm" {
+  value = local.SSH_vm
 }
