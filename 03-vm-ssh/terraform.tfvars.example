@@ -20,4 +20,4 @@ vsphere_vm_template = "focal-server-cloudimg-amd64" # https://cloud-images.ubunt
 vm_count     = 1
 vm_cpus      = 2
 vm_memory    = "2048" # MB
-vm_disk_size = "6"    # GB
+vm_disk_size = "10"    # GB
