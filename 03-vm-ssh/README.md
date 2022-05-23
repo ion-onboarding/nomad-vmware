@@ -15,7 +15,7 @@ cd 03-vm-ssh
 - configure __cloud-init/userdata.yml__,  check [examples on cloudinit.readthedocs.io](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
 - create a file __terraform.tfvars__ or remove `.example` from __terraform.tfvars.example__
     - add variables specific to your project
-- import manually the [ova](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova) from [cloud-images.ubuntu.com](https://cloud-images.ubuntu.com), check `screenshots-import-ova`
+- import manually the ova of preference from [cloud-images.ubuntu.com](https://cloud-images.ubuntu.com), check as example `screenshots-import-ova`
 - do NOT power on the after import
 
 ## Create infrastructure
