@@ -6,55 +6,55 @@
     - select cluster
     - `ACTIONS` > `Deploy OVF Template...`
 
-![](screenshots/2022-05-21-00-54-44.png)
+![](screenshots/01-import-ova.png)
 
 - add OVA template
-    - paste the [URL](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova) of the .ova and click next
+    - paste the ova download URL  and click next
 
-![](screenshots/2022-05-21-00-56-15.png)
+![](screenshots/02-add-ova-url.png)
 
 - name and folder
     - select the cluster
     - leave vm name as it is
     - click next
 
-![](screenshots/2022-05-21-00-57-07.png)
+![](screenshots/03-name-folder.png)
 
 - compute resource
     - select the cluster
     - click next
 
-![](screenshots/2022-05-21-00-57-56.png)
+![](screenshots/04-compute-resource.png)
 
 - review details
     - click next
 
-![](screenshots/2022-05-21-00-58-59.png)
+![](screenshots/05-review-details.png)
 
 - storage
     - select storage
 
-![](screenshots/2022-05-21-01-00-46.png)
+![](screenshots/06-select-storage.png)
 
 - network
     - leave the default `VM Network`
     - click next
 
-![](screenshots/2022-05-21-01-01-22.png)
+![](screenshots/07-select-network.png)
 
 - customize template
     - leave the defaults
     - click next
 
-![](screenshots/2022-05-21-01-02-11.png)
+![](screenshots/08-customize-template.png)
 
 - ready to complete
     - review and click finish
 
-![](screenshots/2022-05-21-01-03-14.png)
+![](screenshots/09-ready-to-complete.png)
 
 
 - check that the VM is ready
     - click on cluster > VMs
 
-![](screenshots/2022-05-21-01-07-28.png)
+![](screenshots/10-check-vm-ready.png)

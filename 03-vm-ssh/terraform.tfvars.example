@@ -14,7 +14,7 @@ vsphere_datastore  = "datastore-01"
 vsphere_network    = "VM Network"
 
 # template, deployed in advance
-vsphere_vm_template = "focal-server-cloudimg-amd64" # https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova
+vsphere_vm_template = "jammy-server-cloudimg-amd64" # https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.ova
 
 # vm specific
 vm_count     = 1
