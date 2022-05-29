@@ -75,7 +75,8 @@ resource "vsphere_virtual_machine" "vm" {
   clone {
     template_uuid = data.vsphere_virtual_machine.template.id
   }
-
+  # https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs/resources/virtual_machine#vapp
+  # https://cloud-images.ubuntu.com/ - dearchive ova, search for "user-data"
   vapp {
     properties = {
       user-data = base64gzip(templatefile("${path.module}/cloud-init/userdata.yml", {}))
