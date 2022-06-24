@@ -12,9 +12,3 @@ vsphere_datacenter = "dc-01"
 vsphere_cluster    = "cluster-01"
 vsphere_datastore  = "datastore-01"
 vsphere_network    = "VM Network"
-
-# vm specific
-vm_count     = 1
-vm_cpus      = 2
-vm_memory    = "2048" # MB
-vm_disk_size = "10"    # GB
