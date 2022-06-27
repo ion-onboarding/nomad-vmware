@@ -6,12 +6,12 @@
 # How to use this repo
 - clone the repo
 ```
-git clone git@github.com:ion-onboarding/vmware.git
+git clone git@github.com:ion-onboarding/nomad-vmware.git
 ```
 
 - change directory
 ```
-cd vmware
+cd nomad-vmware
 ```
 
 - change directory into specific example directory
