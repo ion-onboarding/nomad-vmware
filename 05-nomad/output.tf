@@ -6,9 +6,9 @@ locals {
   SSH_vault   = [for vault in vsphere_virtual_machine.vault : " ssh -i ${local.private_key} -o StrictHostKeyChecking=no ubuntu@${vault.default_ip_address} "]
   SSH_client  = [for client in vsphere_virtual_machine.client : " ssh -i ${local.private_key} -o StrictHostKeyChecking=no ubuntu@${client.default_ip_address} "]
 
-  NOMAD_ADDR       = " export NOMAD_ADDR='http://${vsphere_virtual_machine.nomad[0].default_ip_address}:4646' "
-  CONSUL_HTTP_ADDR = " export CONSUL_HTTP_ADDR='http://${vsphere_virtual_machine.consul[0].default_ip_address}:8500' "
-  VAULT_ADDR       = " export VAULT_ADDR='http://${vsphere_virtual_machine.vault[0].default_ip_address}:8200' "
+  NOMAD_ADDR       = var.nomad_instances_count == 0 ? null : " export NOMAD_ADDR='http://${vsphere_virtual_machine.nomad[0].default_ip_address}:4646' "
+  CONSUL_HTTP_ADDR = var.consul_instances_count == 0 ? null : " export CONSUL_HTTP_ADDR='http://${vsphere_virtual_machine.consul[0].default_ip_address}:8500' "
+  VAULT_ADDR       = var.vault_instances_count == 0 ? null : " export VAULT_ADDR='http://${vsphere_virtual_machine.vault[0].default_ip_address}:8200' "
   API_http         = [local.NOMAD_ADDR, local.CONSUL_HTTP_ADDR, local.VAULT_ADDR]
 
   VAULT_login = ["vault login -method=userpass username=admin password=admin"]
